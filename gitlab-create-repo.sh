@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-mkdir $1 && cd $1 1>$2 2>/dev/null
+mkdir $1 && cd $1 1>&2 2>/dev/null
 
 if [[ $? != 0 ]]; then
 	exit 1
