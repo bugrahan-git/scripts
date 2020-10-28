@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 temp=0
 for f in *.png; do 
     new=$(printf "%03d.png" "$temp")
