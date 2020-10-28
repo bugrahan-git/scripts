@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 rm *.class
 rm -r logs/
 for file in *.java; do
